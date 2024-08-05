@@ -146,7 +146,7 @@ if __name__ == '__main__':
         print("=" * 50)
         needed_flash_val_ = 40
         wasted_bullets_num_ = 1.75
-        e_percent_ = fractions.Fraction(1, 5)
+        e_percent_ = fractions.Fraction(2, 9)
         calc_dmg_func = functools.partial(damage_model_based_on_flash_cnt,
                                           fixed_flash_cnt,
                                           needed_flash_val_,
